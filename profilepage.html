@@ -1,0 +1,261 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="bootstrap.bundle.min.js/bootstrap.bundle.js">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Rate my Room!</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+
+        img {
+            opacity: 0.8;
+            filter: alpha(opacity=50);
+            margin-left: 20px;
+        }
+
+
+        .row {
+
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 10px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+
+        .column {
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 20px;
+
+        }
+
+        .column img {
+
+            vertical-align: middle;
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+
+        @media screen and (max-width: 800px) {
+            .column {
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+        @media screen and (max-width: 600px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+    <header>
+        <div>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #f0dcfd;">
+                <a class="navbar-brand" href="#">|RooM|</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Profile Name
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">myRooms</a>
+                                <a class="dropdown-item" href="#">myFavourites</a>
+                                <a class="dropdown-item" href="#">myFollowers</a>
+                                <a class="dropdown-item" href="#">myActions</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">mySettings</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Categories
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Living Room</a>
+                                <a class="dropdown-item" href="#">Bedroom</a>
+                                <a class="dropdown-item" href="#">Kitchen</a>
+                                <a class="dropdown-item" href="#">Dining Room</a>
+                                <a class="dropdown-item" href="#">Bathroom</a>
+                                <a class="dropdown-item" href="#">Kids Room</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Show All</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <form class="form-inline my-2 my-lg-0">
+                                <button class="btn btn-danger navbar-btn">Upload Photos</button>
+                            </form>
+                    </ul>
+
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="profiles, rooms, items..." aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container" style="background-image: url(" https://upload.wikimedia.org/wikipedia/commons/8/8e/Christen_K%C3%B8bke_-_The_Bay_of_Naples_with_Vesuvius_in_the_Background.jpg
+        ")">
+        <div class="row">
+            <div class="col-sm-4">
+                <img style="width: 50%; margin-top: 80px; margin-left:100px" src="https://cdn3.iconfinder.com/data/icons/seo-e-commerce/327/add_users_add_new-512.png"
+                    alt="Avatar">
+            </div>
+            <div class="col-sm-8">
+                <h1 class="text-left" style="margin-top: 100px; Margin-right:200px">Kristina Kramer</h1>
+                <p style="margin-right:300px">I am living in Germany, here i would like to explore some new decoration ideas. I am open to any suggestions
+                    </p>
+                <a href="#">@kristinakramer</a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h4 style="margin-top: 40px; margin-left: 100px; margin-right: 20px">my Rooms</h4>
+    </div>
+    <div class="row" style="margin-left: 50px; margin-right: 80px">
+
+        <figure class="column figure">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Residential_Suite_Bathroom.jpg">
+
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+
+        </figure>
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Residential_Suite_Bathroom.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+
+        </figure>
+
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Residential_Suite_Bathroom.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+    </div>
+
+    <hr>
+
+    <div>
+        <h4 style="margin-top: 20px; margin-left: 100px; margin-right: 20px">New Uploaded Rooms</h4>
+    </div>
+    <div class="row" style="margin-left: 50px; margin-right: 80px">
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Residential_Suite_Bathroom.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+    </div>
+
+    <hr>
+
+    <div>
+        <h4 style="margin-top: 20px; margin-left: 100px; margin-right: 20px"> |Room|mates</h4>
+    </div>
+    <div class="row" style="margin-left: 50px; margin-right: 80px">
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/L_K%C3%BCche_2015.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+        <figure class="column figure">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Residential_Suite_Bathroom.jpg">
+            <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+        </figure>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+
+    </script>
+</body>
+
+</html>
