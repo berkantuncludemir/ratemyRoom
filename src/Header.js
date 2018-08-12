@@ -11,7 +11,11 @@ class Header extends React.Component {
                     <a href="#home">|RooM|</a>
                 </Navbar.Brand>
                 <Navbar.Collapse>
-
+                    <Nav>
+                        <Nav.NavItem eventKey={1} href="#">
+                            Home
+                        </Nav.NavItem>
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
         )
