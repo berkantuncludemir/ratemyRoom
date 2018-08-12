@@ -20,6 +20,20 @@ class Header extends React.Component {
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
+                                Profile Name
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">myRooms</a>
+                                <a class="dropdown-item" href="#">myFavourites</a>
+                                <a class="dropdown-item" href="#">myFollowers</a>
+                                <a class="dropdown-item" href="#">myActions</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">mySettings</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
                                 Categories
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
