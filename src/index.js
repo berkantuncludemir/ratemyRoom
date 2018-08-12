@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//Komponentler
-import App from './App';
-import Header from './Header'
-
-//import kompnenadı from './Ortabolum'
-
-//
 import registerServiceWorker from './registerServiceWorker';
+import OrtaBolum from './OrtaBolum';
+import Header from './Header';
 
-ReactDOM.render(<Header />,document.getElementById('navbar'));
-//ReactDOM.render(<KOMPONENT ADI BURAYA />, document.getElementById('root'));
+ReactDOM.render(<Header />, document.getElementById('navbar'));
 registerServiceWorker();
+ReactDOM.render(<OrtaBolum />, document.getElementById('root'));
