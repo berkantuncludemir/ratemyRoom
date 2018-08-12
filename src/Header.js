@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import './navbar.css';
 
+class OrtaBolum extends React.Component {
+    render() {
+        return (
+            //HTML
+        );
+    }
+}
+//export default OrtaBolum;
+
 class Header extends React.Component {
     render() {
         return (
