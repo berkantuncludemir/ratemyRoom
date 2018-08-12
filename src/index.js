@@ -5,6 +5,6 @@ import App from './App';
 import Header from './Header'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Header />,document.getElementById('root'));
+ReactDOM.render(<Header />,document.getElementById('nav'));
 //ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
